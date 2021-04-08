@@ -1,0 +1,34 @@
+{
+  "name": "task-list_nodejs",
+  "version": "1.0.0",
+  "description": "respostas a diversos verbos de requisicoes http",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoCelisT/Task-list_NodeJS.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "http",
+    "sqlite"
+  ],
+  "author": "DiegoCelisT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoCelisT/Task-list_NodeJS/issues"
+  },
+  "homepage": "https://github.com/DiegoCelisT/Task-list_NodeJS#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
